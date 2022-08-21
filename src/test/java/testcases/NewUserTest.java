@@ -21,7 +21,7 @@ public class NewUserTest extends BaseClass{
 		 SignUpPage login = new SignUpPage();
 		 login.SignUpFunction(fNameVal,lNameVal,eMailVal,cNumVal,pswVal);
 		 
-		 Thread.sleep(3000);
+		 Thread.sleep(5000);
 		 
 		 WebElement addressOne = driver.findElement(By.xpath("//*[@id='addressLineOne']"));
 		 addressOne.sendKeys("13 Halloween Road");
@@ -51,12 +51,12 @@ public class NewUserTest extends BaseClass{
 		 WebElement submit = driver.findElement(By.xpath("//*[@name='_eventId_confirm']"));
 		 submit.click();
 		 
-		 Thread.sleep(3000);
+		 Thread.sleep(5000);
 		 
 		 WebElement confirm = driver.findElement(By.xpath("//*[@class='btn btn-lg btn-primary']"));
 		 confirm.click();
 		 
-		 Thread.sleep(3000);
+		 Thread.sleep(5000);
 		 
 		 WebElement confirmation = driver.findElement(By.xpath("//*[@class='text-center']/h6")); 
 		 String confText = confirmation.getText();
