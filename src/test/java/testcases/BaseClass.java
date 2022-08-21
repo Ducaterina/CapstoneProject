@@ -87,7 +87,7 @@ public static WebDriver driver;
 	@AfterMethod
 	public void TearDown() {
 		report.endTest(test);
-		//driver.quit();
+		driver.quit();
 	}
 	
 
