@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="testng">
+
+<parameter name="Param1" value="kn@gmail.com"></parameter>
+<parameter name="Param2" value="12345"></parameter>
+
+<parameter name="Param3" value="Mary"></parameter>
+<parameter name="Param4" value="Campbell"></parameter>
+<parameter name="Param5" value="abc@xyz439357.com"></parameter>
+<parameter name="Param6" value="1234567898"></parameter>
+<parameter name="Param7" value="Qwerty1$"></parameter>
+
+<parameter name="Param8" value="vk@gmail.com"></parameter>
+<parameter name="Param9" value="admin"></parameter>
+
+<classes>
+<class name="testcases.ViewProductsTest"/>
+<class name="testcases.AdminAddCategoryTest"/>
+<class name="testcases.NewUserTest"/>
+<class name="testcases.UserEndToEndTest"/>
+<class name="testcases.AdminEndToEndTest"/>
+<class name="restAPI.GetRequests"/>
+
+
+</classes>
+  </test> <!-- testng -->
+</suite> <!-- Suite -->
